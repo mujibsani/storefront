@@ -1,0 +1,6 @@
+# Created by pytest automatically.
+*.pyc
+/media/
+/static/
+/__pycache__/
+general.log

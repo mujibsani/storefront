@@ -1,0 +1,14 @@
+<html>
+    <body>
+    {%if name%}
+    <h1>hello {{name}}</h1>
+    {% endif%}
+    <p>{{result}}</p>
+    <ul>
+        {% for product in products%}
+        <li>{{product.id}} {{product.customer.first_name}}</li>
+        {% endfor %}
+    </ul>
+
+    </body>
+</html>
